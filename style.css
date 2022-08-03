@@ -1,0 +1,315 @@
+General
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+================================
+Reset Start
+================================
+*/
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+================================
+Reset End
+================================
+*/
+
+/*
+================================
+General Start
+================================
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: orbitron;
+  font-size: 62.5%;
+}
+.container {
+  margin: 0 0 0 60px;
+}
+
+/*
+================================
+General End
+================================
+*/
+
+/*
+================================
+Navigation - Start
+================================
+*/
+.navbar-container {
+  margin-top: 16px;
+  padding: 10px 0;
+}
+.logo-col {
+  width: 6%;
+  text-align: center;
+  display: inline-block;
+}
+.nav-col {
+  width: 64%;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+.search-col {
+  width: 22%;
+  display: inline-block;
+}
+.logo {
+  width: 100px;
+  float: left;
+}
+.list-item {
+  display: inline-block;
+  font-family: sans-serif;
+  margin-right: 36px;
+  font-weight: 500;
+  color :#afaeae;
+  font-size: 1rem;
+}
+.list-item:first-child {
+  color:#4d4d4d;
+  font-weight: bold;
+ 
+}
+.list-item:last-child {
+  margin-right: 0;
+}
+
+.search-icon {
+  display: inline;
+  padding-right: 12px;
+}
+.nav-button-container {
+  display: inline;
+}
+.button-group {
+  float: right;
+}
+.nav-button {
+  border:none;
+  color:white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: #5955B3;
+}
+.btn {
+  padding: 12px 24px;
+}
+/*
+================================
+Navigation End
+================================
+*/
+
+/*
+  ========================================
+  Clearfix Start
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*
+  ========================================
+  Clearfix End
+  ========================================
+*/
+
+/*
+  ========================================
+  banner Start
+  ========================================
+*/
+.banner-container{
+position:relative;
+margin : 0 auto;
+padding:12px 0;
+}
+.heading-text{
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:4rem;
+}
+
+.heading-text span{
+  color: #5955B3;
+}
+.description{
+  font-family: sans-serif;
+  margin:32px 0;
+  font-size:1.2rem;
+  color :#a4a3a3;
+  width:85%;
+  line-height: 1.5;
+
+}
+.part-one {
+  padding:54px 0; 
+ vertical-align: top;
+ display: inline-block;
+ width:32%;
+ 
+}
+.part-two {
+  display: inline-block;
+  width:65%;
+  padding-right:48px;
+}
+
+
+.part-two img {
+  width:100%;
+}
+/*
+  ========================================
+  banner End
+  ========================================
+*/
